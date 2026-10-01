@@ -13,19 +13,19 @@ omkar-portfolio/
     ├── profile.jpg
     ├── resume.pdf
     └── projects/
-        ├── stockout-risk.png
-        ├── llm-monitoring.png
-        ├── ewaste.png
-        └── powerbi.png
+        ├── shopya.png
+        ├── sgnpy.png
+        ├── redflag.png
+        └── shetimitra.png
 ```
 
 ## Fill in your details
-Search `index.html` for text in square brackets, such as `[YOUR EMAIL]`, `[YOUR GITHUB URL]`, `[YOUR COLLEGE]`, and replace each one. Delete any contact card or social icon you do not need.
+All text, links and project details are already filled in from your information. Only the image and PDF files below still need to be added.
 
 - **Profile photo:** save a square image as `assets/profile.jpg` (about 600x600 px).
 - **Resume:** save your PDF as `assets/resume.pdf`.
 - **Project screenshots:** save images into `assets/projects/` using the file names above. A card with no image simply hides the picture.
-- **GitHub / LinkedIn links:** edit the `href` values in the hero icons and in the Contact section. For X or YouTube, uncomment the example icon in the hero and add a matching contact card.
+- **GitHub / LinkedIn links:** edit the `href` values in the hero icons and in the Contact section. To add X or YouTube later, copy a social icon `<li>` in the hero and a contact card.
 
 ## Deploy with GitHub Pages
 1. Create a repository (for example `omkar-portfolio`) and push these files to the `main` branch.
@@ -36,5 +36,5 @@ Search `index.html` for text in square brackets, such as `[YOUR EMAIL]`, `[YOUR 
 ## Customize
 - **Colors:** edit the variables at the top of `style.css` (`--text`, `--accent`, `--border`, and so on).
 - **New project:** copy one `<article class="card">` block inside the projects grid in `index.html` and edit it.
-- **New skill:** copy one `<li class="skill">` in `index.html`. Set `data-cat` to one or more of `ds ml python sql viz tools`, separated by spaces. The count updates automatically.
+- **New skill:** copy one `<li class="skill">` in `index.html`. Set `data-cat` to one or more of `ds ml python sql viz tools soft` (`soft` appears only under All Skills), separated by spaces. The count updates automatically.
 - **Timeline:** copy one `<li class="tl-item">` inside the `<ol class="timeline">` and edit the year, title and text.
