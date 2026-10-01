@@ -9,7 +9,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Omkar Satpute | Data Scientist">
   <meta property="og:description" content="Data science, machine learning and analytics projects built with Python, SQL and Power BI.">
-  <meta property="og:image" content="assets/profile.jpg">
+  <meta property="og:image" content="https://omkarsatpute18.github.io/omkarsatpute18/assets/profile.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
@@ -34,7 +34,9 @@
         </ul>
       </div>
       <div class="hero-photo">
-        <img src="assets/profile.jpg" alt="Portrait of Omkar Satpute" width="320" height="320">
+        <!-- If assets/profile.jpg is missing, this tries other common names, then shows an "OS" placeholder. -->
+        <img src="assets/profile.jpg" alt="Portrait of Omkar Satpute" width="320" height="320"
+             onerror="var n=['assets/profile.jpeg','assets/profile.png','assets/profile.JPG','assets/profile.webp'],i=+this.dataset.i||0;if(i<n.length){this.dataset.i=i+1;this.src=n[i];}else{this.onerror=null;this.src='data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 320 320%27%3E%3Crect width=%27320%27 height=%27320%27 fill=%27%23f3f4f6%27/%3E%3Ctext x=%2750%25%27 y=%2754%25%27 font-family=%27Arial,sans-serif%27 font-size=%2796%27 font-weight=%27700%27 fill=%27%23111827%27 text-anchor=%27middle%27 dominant-baseline=%27middle%27%3EOS%3C/text%3E%3C/svg%3E';}">
       </div>
     </div>
   </section>
